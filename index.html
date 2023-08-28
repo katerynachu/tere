@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tere</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./assets/style/style.css" />
+  </head>
+  <body>
+    <header id="header" class="header">
+      <div class="header_container container">
+        <div class="header_wrapper">
+          <a class="header_logo-link link" href="/">
+            <svg class="header_logo" width="93" height="26">
+              <use href="./assets/img/sprite.svg#icon-logo"></use></svg
+          ></a>
+          <nav class="menu close">
+            <ul class="menu_list list">
+              <li class="menu_item">
+                <a class="menu_link link" href="#header">Home</a>
+              </li>
+              <li class="menu_item">
+                <a class="menu_link link" href="#how-it-works"
+                  >How tere works</a
+                >
+              </li>
+              <li class="menu_item">
+                <a class="menu_link link" href="#benefits">Tere benefits</a>
+              </li>
+            </ul>
+            <button class="menu_btn" type="button">Help Center</button>
+          </nav>
+          <button class="header_burger">
+            <svg class="open-btn" width="32" height="32">
+              <use href="./assets/img/sprite.svg#icon-burger"></use>
+            </svg>
+            <svg class="close-btn hidden" width="32" height="32">
+              <use href="./assets/img/sprite.svg#icon-close"></use>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="hero_container container">
+          <div class="hero_wrapper">
+            <picture class="hero_image">
+              <source
+                width="553"
+                height="582"
+                srcset="./assets/img/hero-image-desktop.png"
+                type="image/png"
+                media="(min-width: 576px)"
+              />
+              <img
+                class="hero_main-img"
+                width="320"
+                height="337"
+                src="./assets/img/hero-image-mobile.png"
+                alt="map"
+              />
+            </picture>
+            <div class="hero_content">
+              <h1 class="hero_title">
+                DOWNLOAD APP, SAVE MONEY, MAKE FRIENDS!
+              </h1>
+              <p class="hero_description description">
+                Its simple and its free. Play your part in reducing Carbon
+                Footprint and help Mother Nature to sustain its beauty. So what
+                are you waiting for ? Lets ride together
+              </p>
+              <ul class="hero_buttons list">
+                <li class="hero_btn">
+                  <a class="hero_buttons-link app-btn link" href="">
+                    <svg class="hero_button-svg">
+                      <use href="./assets/img/sprite.svg#icon-play-store"></use>
+                    </svg>
+                    DOWNLOAD
+                  </a>
+                </li>
+                <li class="hero_btn">
+                  <a class="hero_buttons-link app-btn link" href="">
+                    <svg class="hero_button-svg">
+                      <use href="./assets/img/sprite.svg#icon-app-store"></use>
+                    </svg>
+                    DOWNLOAD
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="apply">
+        <div class="apply_container container">
+          <div class="apply_wrapper">
+            <h2 class="apply_title">
+              Let’s go. Get a link to download the app.
+            </h2>
+            <form class="apply_form">
+              <input
+                class="apply_number-input"
+                type="number"
+                name="phone"
+                id="phone-number"
+                placeholder="Enter mobile phone number"
+              />
+              <button class="apply_btn" type="submit">apply to drive</button>
+            </form>
+          </div>
+        </div>
+      </section>
+      <section id="how-it-works" class="how-works">
+        <div class="how-works_container container">
+          <h2 class="how-works_title h2">
+            HOW <span class="green">TERE</span> WORKS
+          </h2>
+          <p class="how-works_description description">
+            Download and install the tere app. Enter your phone number and make
+            your user account. when approved you may start driving.
+          </p>
+          <div class="how-works_slider slider">
+            <div class="how-works_slider-item">
+              <picture class="how-works_image">
+                <source
+                  width="278"
+                  height="560"
+                  srcset="./assets/img/phone-desktop.png"
+                  type="image/png"
+                  media="(min-width: 1200px)"
+                />
+                <img
+                  class="how-works_image"
+                  width="223"
+                  height="448"
+                  src="./assets/img/works-image.png"
+                  alt="phone with app tere"
+                />
+              </picture>
+            </div>
+          </div>
+          <h2 class="benefits_title h2">
+            <span class="green">TERE </span>BENEFITS
+          </h2>
+          <ul class="benefits_list list">
+            <li class="benefits_item">
+              <div class="benefits_subtitle-wrapp">
+                <svg class="benefits_circle" width="55" height="55">
+                  <use href="./assets/img/sprite.svg#icon-circle"></use>
+                </svg>
+                <span class="benefits_item-number">1</span>
+              </div>
+              <h3 class="benefits_subtext h3">REQUEST A RIDE</h3>
+              <p class="benefits_description description">
+                Download tere app from play store, app store. Create account,
+                find a ride, share and save money
+              </p>
+            </li>
+            <li class="benefits_item">
+              <div class="benefits_subtitle-wrapp">
+                <svg class="benefits_circle" width="55" height="55">
+                  <use href="./assets/img/sprite.svg#icon-circle"></use>
+                </svg>
+                <span class="benefits_item-number"></span>
+              </div>
+              <h3 class="benefits_subtext h3">PUBLISH A RIDE</h3>
+              <p class="benefits_description description">
+                Download tere app from play store, app store. Create account,
+                find a ride, share and save money
+              </p>
+            </li>
+            <li class="benefits_item">
+              <div class="benefits_subtitle-wrapp">
+                <svg class="benefits_circle" width="55" height="55">
+                  <use href="./assets/img/sprite.svg#icon-circle"></use>
+                </svg>
+                <span class="benefits_item-number"></span>
+              </div>
+              <h3 class="benefits_subtext h3">PUBLISH A RIDE</h3>
+              <p class="benefits_description description">
+                Download tere app from play store, app store. Create account,
+                find a ride, share and save money
+              </p>
+            </li>
+            <li class="benefits_item">
+              <div class="benefits_subtitle-wrapp">
+                <svg class="benefits_circle" width="55" height="55">
+                  <use href="./assets/img/sprite.svg#icon-circle"></use>
+                </svg>
+                <span class="benefits_item-number"></span>
+              </div>
+              <h3 class="benefits_subtext h3">PUBLISH A RIDE</h3>
+              <p class="benefits_description description">
+                Download tere app from play store, app store. Create account,
+                find a ride, share and save money
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section id="benefits" class="advantages">
+        <div class="advantages_container container">
+          <h2 class="advantages_title h2">
+            <span class="green">TERE</span> BENEFITS
+          </h2>
+          <ul class="advantages_list list">
+            <li class="advantages_item">
+              <div class="advantages_subtext-wrapp">
+                <span class="advantages_number">01.</span>
+                <p class="advantages_text">Flexible working hours</p>
+              </div>
+              <picture class="advantages_image">
+                <source
+                  width="259"
+                  height="268"
+                  srcset="./assets/img/benefit-1_desktop.png"
+                  type="image/png"
+                  media="(min-width: 1200px)"
+                />
+                <img
+                  class="advantages_image"
+                  width="225"
+                  height="223"
+                  src="./assets/img/benefits-1.png"
+                  alt="benefits first"
+                />
+              </picture>
+              <p class="advantages_description description">
+                You can decide when, and how much time you want to drive.
+              </p>
+            </li>
+            <li class="advantages_item reverse">
+              <div class="advantages_subtext-wrapp reverse">
+                <span class="advantages_number">01.</span>
+                <p class="advantages_text">Flexible working hours</p>
+              </div>
+              <img
+                class="advantages_image reverse"
+                src="./assets/img/benefits-2.png"
+                alt=""
+              />
+              <p class="advantages_description description">
+                You can decide when, and how much time you want to drive.
+              </p>
+            </li>
+            <li class="advantages_item">
+              <div class="advantages_subtext-wrapp">
+                <span class="advantages_number">01.</span>
+                <p class="advantages_text">Flexible working hours</p>
+              </div>
+              <picture class="advantages_image">
+                <source
+                  width="310"
+                  height="233"
+                  srcset="./assets/img/benefitg_3_desktop.png"
+                  type="image/png"
+                  media="(min-width: 1200px)"
+                />
+                <img
+                  class="advantages_image"
+                  width="247"
+                  height="173"
+                  src="./assets/img/benefits-3.png"
+                  alt="benefits third"
+                />
+              </picture>
+              <p class="advantages_description description">
+                You can decide when, and how much time you want to drive.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer_container container">
+        <div class="footer_wrapper">
+          <a class="footer_logo-link link" href="">
+            <svg class="footer_logo">
+              <use href="./assets/img/sprite.svg#icon-logo"></use></svg
+          ></a>
+          <div class="footer_buttons">
+            <a class="footer_btn link app-btn" href="">
+              <svg width="26" height="23">
+                <use href="./assets/img/sprite.svg#icon-play-store"></use>
+              </svg>
+              DOWNLOAD
+            </a>
+            <a class="footer_btn link app-btn" href="">
+              <svg width="26" height="23">
+                <use href="./assets/img/sprite.svg#icon-app-store"></use>
+              </svg>
+              DOWNLOAD
+            </a>
+          </div>
+          <h4 class="footer_subtitle">Be Our Friend</h4>
+          <div class="footer_address-box">
+            <p class="footer_address address">3, Season Park, Jakarta</p>
+            <p class="footer_email address">support@foodyar.co,id</p>
+            <p class="footer_phone address">021 - 1111 - 2222</p>
+          </div>
+          <p class="footer_cipyright">
+            All Rights Reserved tere by Codematics
+            <span id="currentYear"></span>
+          </p>
+        </div>
+      </div>
+    </footer>
+    <script src="./assets/js/benefits-counter.js" type="module"></script>
+    <script src="./assets/js/copyright.js" type="module"></script>
+    <script src="./assets/js/advantages-count.js" type="module"></script>
+    <script src="./assets/js/burger-menu.js"></script>
+  </body>
+</html>
